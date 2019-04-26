@@ -1,0 +1,167 @@
+
+          
+        .id1{
+            position: sticky;
+            width:300px;
+            height:600px;
+            background-color: plum;
+            left: 600px;
+        } 
+        .id2{
+            position: absolute;
+            width:150px;
+            height:100px;
+            padding: 6px;
+            left: 1px;
+                
+                  
+        } 
+
+      .tb1{
+          width: 160px;
+          height: 0px;
+          background-color: yellow;
+          position: absolute;
+          bottom: 400px;
+          left: 10px;
+      }
+      .tb2{
+     width: 160px;
+     height: 10px;
+     background-color:green;
+     position: absolute;
+     bottom: 300px;
+     left: 10px;
+ }
+
+ .tb3{
+     width: 160px;
+     height: 0px;
+     background-color:green;
+     position: absolute;
+     bottom: 00px;
+     left: 10px;
+ }
+ .tb4{
+     width: 150px;
+     height: 0px;
+     background-color:red;
+     position: absolute;
+     bottom: 150px;
+     left:10px;
+ }
+ 
+ h3{
+     position: absolute;
+      top: 10px;
+    
+ }
+ body{
+     position: sticky;
+     background-color: aqua;
+    
+ }
+ 
+ #demo{
+     position: absolute;
+     top: 240px;
+     left: 180px;
+   
+ }
+ 
+ #id1a{
+     position: absolute;
+     top: 350px;
+     left: 180px;
+   
+ }
+ 
+ #id1b{
+     position: absolute;
+     top:500px;
+     left: 180px;
+   
+ }
+ #id1c{
+     position: absolute;
+     top: 650px;
+     left: 180px;
+   
+ }
+ #pra{
+     position: absolute;
+     bottom: 230px;
+     left: 990px;
+     height: 300px;
+     width: 300px;
+     padding: 100px;
+     background-color: gold;
+ }
+ .btn1{
+     position: absolute;
+     bottom: 320px;
+     left: 900px;
+     padding: 5px;
+     background-color: blue;
+ }
+ .btn2{
+     position: absolute;
+     bottom: 370px;
+     padding: 5px;
+     left: 900px;
+     background-color: green;
+ }
+ 
+ .btn3{
+     position: absolute;
+     bottom: 450px;
+     padding: 5px;
+     left: 900px;
+     background-color: red;
+ }
+ .btn4{
+     position: absolute;
+     bottom: 550px;
+     padding: 5px;
+     left: 900px;
+     background-color: yellow;
+ }
+ .btn5{
+     position: absolute;
+     bottom: 230px;
+     padding: 5px;
+     left: 900px;
+     background-color: purple;
+ }
+ .btn6{
+     position: absolute;
+     bottom: 190px;
+     padding: 5px;
+     left: 900px;
+     background-color: plum;
+ }
+ 
+ .btn7{
+     position: absolute;
+     bottom: 290px;
+     padding: 5px;
+     left: 500px;
+     background-color: palegreen;
+ }
+ .btn8{
+     position: absolute;
+     bottom: 180px;
+     padding: 5px;
+     left: 500px;
+     background-color: cornflowerblue;
+ }
+ 
+ #arw1{
+     position: relative;
+     bottom: 180px;
+     left: 100px;
+     height: 140px;
+     width: 100px;
+     background-color: red;
+ }
+ 

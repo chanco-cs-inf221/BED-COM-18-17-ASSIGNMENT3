@@ -1,0 +1,161 @@
+<DOCTYPE HTML>
+   <html>
+<head>
+<title>THE VESSELSE</title>
+<style>
+
+h2{
+         position: absolute;
+         bottom: 250px;
+         padding: 5px;
+         left: 10px;
+         
+     }
+     .tb3{
+     position: absolute;
+     bottom: 300px;
+     padding: 1px;
+     left: 10px;
+     background-color: greenyellow;
+ }
+    .ida{
+         position: absolute;
+         bottom: 180px;
+         padding: 5px;
+         left: 10px;
+         background-color: cornflowerblue;
+     }
+    .idb{
+         position: absolute;
+         bottom: 230px;
+         padding: 5px;
+         left: 10px;
+         background-color: greenyellow;
+     }
+    .idC{
+         position: absolute;
+         bottom: 200px;
+         padding: 5px;
+         left: 10px;
+         background-color: red;
+     }
+    .idd{ 
+       position: absolute;
+         bottom: 130px;
+         padding: 5px;
+         left: 10px;
+         background-color: blueviolet;
+     }
+     
+     #demo{
+         position: absolute;
+         bottom: 320px;
+         left: 150px;
+         height: 300px;
+         width: 300px;
+         padding: 50px;
+         background-color: goldenrod ;
+     }
+     body{
+         background-color: mediumslateblue;
+     }
+    
+
+
+   </style>
+
+</head>
+<body>
+      <table class="tb3">  <tr><td>
+            <a href = "HOMEPAGE.html"><h4> HOME PAGE</h4></a>
+          </td></tr></table><br>
+      <h2>THE ANATOMY OF THE BLOOD VESSELS</h2>
+      <table id="demo"></table>
+<button class="ida" onclick = "myFunction()">ARTERIES</button>
+<button class="idb" onclick = "myfunction()">VEINS</button>
+<button class="idc" onclick = "myjunction()"> CAROTID ARTERIES</button>
+<button class="idd" onclick = "myyunction()">CAPILLARIES </button>
+   
+
+</body>
+<style>
+   img{
+   width:500px;
+   height:500px;
+   padding: 6px;
+   position: sticky;
+   left: 600px;
+</style>
+<body>
+<img src = "vessels.jpg">
+      
+    
+
+
+</body>
+   
+   <script>
+         function myFunction(){
+      var tx = "";
+      var records = ["arteries are blood vessels which transport ", 
+                     "blood full of oxygen with only exception for",
+                     "pulmonary artery, they have thick walls ", 
+                     "as compared to those of veins.",
+                     "Transport blood towards the heart"];
+      records.forEach(myFunction);
+      document.getElementById("demo").innerHTML = tx;
+      
+      function myFunction(value, index, array) {
+        tx = tx + value + "<br>"; 
+      }
+      }
+      function myfunction(){
+      var txt = "";
+      var text = ["Veins are blood vessels which transport ", 
+                     "blood poor of oxygen with only exception for",
+                     "pulmonary vein, they have thin walls ", 
+                     "as compared to those of arteries.",
+                     "Transport blood away from the heart"];
+      text.forEach(myfunction);
+      document.getElementById("demo").innerHTML = txt;
+      
+      function myfunction(value, index, array) {
+        txt = txt + value + "<br>"; 
+      }
+      }
+      function myjunction(){
+      var xp = "";
+      var doc = [" CAROTID arteries are blood vessels which transport ", 
+                     "blood full of oxygen to the brain",
+                     "cells they contain materials for ", 
+                     "survival of brain cells.",
+                     ""
+                     ];
+      doc.forEach(myjunction);
+      document.getElementById("demo").innerHTML = xp;
+      
+      function myjunction(value, index, array) {
+        xp = xp + value + "<br>"; 
+      }
+      }
+      function myyunction(){
+      var tp = "";
+      var docc = ["Capillalies are blood vessels which transport", 
+                     "blood to the body cells they are points ",
+                     "material exchange  ", 
+                     "as compared to those of arteries.",
+                     "and veins they have thinest walls"];
+      docc.forEach(myyunction);
+      document.getElementById("demo").innerHTML = tp;
+      
+      function myyunction(value, index, array) {
+        tp = tp + value + "<br>"; 
+      }
+      }
+      </script>
+   
+   
+   
+   
+   
+   </html>
